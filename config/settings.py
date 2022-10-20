@@ -26,11 +26,10 @@ SECRET_KEY = 'django-insecure-g$o-zhbndskn#t46-rzga$cb^x%d@%t&afniqyu_xwvij&k@g8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['13.125.176.228']
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -113,14 +112,13 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'test100',
-        'USER': 'postgres',
-        'PASSWORD': 'admin1234',
-        'HOST': 'localhost',
+        'NAME': 'dbmaster',
+        'USER': 'linstadmin',
+        'PASSWORD': 'linstadmin1234',
+        'HOST': 'ls-319c542b49d8dac581e7da0de7cd5c4f58899159.c9moiqwv5ama.ap-northeast-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
-
 
 
 # Password validation
