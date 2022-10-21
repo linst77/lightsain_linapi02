@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-g$o-zhbndskn#t46-rzga$cb^x%d@%t&afniqyu_xwvij&k@g8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['13.125.176.228']
+ALLOWED_HOSTS = ['43.200.213.240']
 
 
 # Application definition
@@ -114,8 +114,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dbmaster',
         'USER': 'linstadmin',
-        'PASSWORD': 'linstadmin1234',
-        'HOST': 'ls-319c542b49d8dac581e7da0de7cd5c4f58899159.c9moiqwv5ama.ap-northeast-2.rds.amazonaws.com',
+        'PASSWORD': 'linstadmin',
+        'HOST': 'ls-ed5a65f34f69428d5b52b2ed8cc25ae5b37469ae.c9moiqwv5ama.ap-northeast-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
